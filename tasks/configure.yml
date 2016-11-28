@@ -61,7 +61,7 @@
     owner: "{{ supervisor_system_user }}"
     group: "{{ supervisor_system_group }}"
     mode: 0755
-  notify: restart supervisor via systemd
+  notify: restart supervisor
   when: ansible_service_mgr == "systemd"
   tags:
     - supervisor-configure-configuration
