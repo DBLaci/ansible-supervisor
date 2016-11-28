@@ -1,0 +1,14 @@
+{
+  "name": "ansible-supervisor",
+  "version": "1.6.2",
+  "description": "Ansible role for installing and configuring supervisord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ansible"
+  ],
+  "author": "DBLaci <dblaci@dblaci.hu>",
+  "license": "MIT"
+}
